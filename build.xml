@@ -4,7 +4,7 @@
     <property environment="env"/>
 
 	  <target name="test">
-	      <!-- Upload the contents of the "src" package -->
+	      <!-- Upload/Deploy the contents of the "src" package -->
 	      <sf:deploy username="${sf.username}"
 	      	password="${sf.password}" 
 	      	serverurl="${sf.serverurl}"
