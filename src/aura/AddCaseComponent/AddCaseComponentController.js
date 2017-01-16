@@ -1,4 +1,5 @@
 ({
+// Comment added on 16 Jan 2016 by ajansi 
 	getRelatedCase : function(cmp, event, helper) {
 		var action = cmp.get("c.getRelatedCases");
         action.setParams({ "meetingId" : cmp.get("v.meetingRowId")});

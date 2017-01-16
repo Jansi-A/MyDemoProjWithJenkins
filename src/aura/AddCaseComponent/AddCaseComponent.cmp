@@ -1,4 +1,5 @@
 <aura:component implements="flexipage:availableForAllPageTypes" controller="customMeetingControllerNew">
+    <!-- Comment added on 16 Jan 2016 by ajansi -->
     <aura:attribute name="meetingRowId" type="String" default=""/>
 	<aura:attribute name="listOfCase" type="Case[]"/>
     <aura:attribute name="meetingIntRowIdCase" type="String" default=""/>
