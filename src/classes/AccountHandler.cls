@@ -4,7 +4,7 @@ public class AccountHandler
     {
     	//Jansi Comment --- 18 Jan 2016 11 AM ......kk..done..hvm ..thx
     	//Done with Jenkins POC
-    	//...........
+    	//Testing Email.....
         Account acc= new Account();
         acc.Name = sName;
         try
