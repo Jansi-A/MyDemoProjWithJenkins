@@ -18,7 +18,7 @@
 	      	password="${sf.password}" 
 	       	serverurl="${sf.serverurl}" 
 	      	maxPoll="${sf.maxPoll}"
-	      	deployRoot="removecodepkg"/>
+	      	deployRoot="removecodepkg" rollbackOnError="true"/>
 	    </target>
 	<!-- Rollback to old code...basically this is a deployment again to old patch   -->
 	  <target name="rollback">
@@ -26,7 +26,7 @@
 	      	password="${sf.password}" 
 	       	serverurl="${sf.serverurl}" 
 	      	maxPoll="${sf.maxPoll}"
-	      	deployRoot="roolback"/>
+	      	deployRoot="roolback" rollbackOnError="true"/>
 	    </target>
 	
 </project>
