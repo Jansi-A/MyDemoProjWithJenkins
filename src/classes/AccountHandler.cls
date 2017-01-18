@@ -2,7 +2,7 @@ public class AccountHandler
 {
     public static Account insertNewAccount(String sName)
     {
-    	//Jansi Comment --- 18 Jan 2016 11 AM ......kk..done
+    	//Jansi Comment --- 18 Jan 2016 11 AM ......kk..donell
         Account acc= new Account();
         acc.Name = sName;
         try
