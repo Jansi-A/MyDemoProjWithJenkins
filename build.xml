@@ -12,6 +12,14 @@
 	  	    deployRoot="src" 
 	      	rollbackOnError="true"/>
 		</target>
-
+	<!-- Shows removing code; only succeeds if done after deployCode -->
+	  <target name="undeployCode">
+	      <sf:deploy username="${sf.username}"
+	      	password="${sf.password}" 
+	      	sessionId="${sf.sessionId}" 
+	      	serverurl="${sf.serverurl}" 
+	      	maxPoll="${sf.maxPoll}"
+	      	deployRoot="removecodepkg"/>
+	    </target>
 	
 </project>
