@@ -16,8 +16,7 @@
 	  <target name="undeployCode">
 	      <sf:deploy username="${sf.username}"
 	      	password="${sf.password}" 
-	      	sessionId="${sf.sessionId}" 
-	      	serverurl="${sf.serverurl}" 
+	       	serverurl="${sf.serverurl}" 
 	      	maxPoll="${sf.maxPoll}"
 	      	deployRoot="removecodepkg"/>
 	    </target>
