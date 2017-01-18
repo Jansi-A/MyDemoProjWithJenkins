@@ -12,13 +12,21 @@
 	  	    deployRoot="src" 
 	      	rollbackOnError="true"/>
 		</target>
-	<!-- Shows removing code; only succeeds if done after deployCode -->
+	<!-- Shows removing code; only succeeds if done after deployCode. This will delete the files in SF  Instance -->
 	  <target name="undeployCode">
 	      <sf:deploy username="${sf.username}"
 	      	password="${sf.password}" 
 	       	serverurl="${sf.serverurl}" 
 	      	maxPoll="${sf.maxPoll}"
 	      	deployRoot="removecodepkg"/>
+	    </target>
+	<!-- Rollback to old code...basically this is a deployment again to old patch   -->
+	  <target name="rollback">
+	      <sf:deploy username="${sf.username}"
+	      	password="${sf.password}" 
+	       	serverurl="${sf.serverurl}" 
+	      	maxPoll="${sf.maxPoll}"
+	      	deployRoot="roolback"/>
 	    </target>
 	
 </project>
