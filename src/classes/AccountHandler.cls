@@ -3,6 +3,7 @@ public class AccountHandler
     public static Account insertNewAccount(String sName)
     {
     	//Added New Comment
+    	//Branch 2 comment....
         Account acc= new Account();
         acc.Name = sName;
         try
