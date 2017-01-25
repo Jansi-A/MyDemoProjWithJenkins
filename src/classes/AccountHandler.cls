@@ -2,7 +2,7 @@ public class AccountHandler
 {
     public static Account insertNewAccount(String sName)
     {
-    	//Added New Comment
+    	//Added New Comment ******************
 
     	//Branch 2 comment....
     	//Local Branch 4 comment to Remote Branch 2
